@@ -40,7 +40,7 @@ layers:
   - L
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - LEFT WIN
+  - {t: LWIN, h: '2'}
   - Z
   - X
   - C
@@ -170,7 +170,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
   - '}'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
